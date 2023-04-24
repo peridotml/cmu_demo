@@ -13,7 +13,7 @@ RUN Rscript /requirements.R
 
 # Copy your R scripts into the container
 COPY hello_world.R /hello_world.R
-COPY sum_function.R /sum_function.R
+# COPY sum_function.R /sum_function.R
 COPY test_sum_function.R /test_sum_function.R
 
 # Set the command to run the R script
